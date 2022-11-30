@@ -18,6 +18,11 @@ namespace StackUsingLinkedList
     {
         Node top;
 
+        public Stacks()
+        {
+            top = null;
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
