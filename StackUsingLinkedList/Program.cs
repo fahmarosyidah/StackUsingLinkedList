@@ -47,6 +47,11 @@ namespace StackUsingLinkedList
             top = top.next; //Make top point to the next node in sequence
         }
 
+        public void display()
+        {
+            Node tmp;
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
