@@ -4,7 +4,8 @@ namespace StackUsingLinkedList
 {
     class Node
     {
-
+        public int info;
+        public Node next;
     }
     class Program
     {
