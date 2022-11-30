@@ -53,6 +53,15 @@ namespace StackUsingLinkedList
 
             if (empty()) //If stack is empty
                 Console.WriteLine("\nStack Empty");
+            else
+            {
+                //Traverse the list from begginning till end
+                for (tmp = top; tmp != null; tmp = tmp.next)
+                {
+                    Console.WriteLine(tmp.info);
+                }
+                Console.WriteLine();
+            }
         }
 
         static void Main(string[] args)
