@@ -50,6 +50,9 @@ namespace StackUsingLinkedList
         public void display()
         {
             Node tmp;
+
+            if (empty()) //If stack is empty
+                Console.WriteLine("\nStack Empty");
         }
 
         static void Main(string[] args)
