@@ -23,6 +23,14 @@ namespace StackUsingLinkedList
             top = null;
         }
 
+        bool empty()
+        {
+            if (top == null)
+                return (true);
+            else
+                return (false);
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
