@@ -66,7 +66,7 @@ namespace StackUsingLinkedList
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Stacks s = new Stacks();
         }
     }
 }
