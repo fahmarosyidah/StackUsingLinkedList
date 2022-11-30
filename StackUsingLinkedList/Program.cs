@@ -13,8 +13,11 @@ namespace StackUsingLinkedList
             next = n;
         }
     }
-    class Program
+
+    class Stacks
     {
+        Node top;
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
